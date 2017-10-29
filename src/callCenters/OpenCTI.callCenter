@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CallCenter xmlns="http://soap.sforce.com/2006/04/metadata">
     <adapterUrl>/apex/demoAdapterPage</adapterUrl>
-    <customSettings>{&quot;reqTimeout&quot;:&quot;10000&quot;,&quot;reqStandbyUrl&quot;:&quot;/apex/demoAdapterPage2&quot;,&quot;reqSoftphoneHeight&quot;:&quot;550&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;400&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Classic_and_Lightning&quot;}</customSettings>
+    <customSettings>{&quot;reqTimeout&quot;:&quot;10000&quot;,&quot;reqStandbyUrl&quot;:&quot;/apex/demoAdapterPage&quot;,&quot;reqSoftphoneHeight&quot;:&quot;550&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;400&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Classic_and_Lightning&quot;}</customSettings>
     <displayName>Demo Call Center Adapter</displayName>
     <displayNameLabel>Display Name</displayNameLabel>
     <internalNameLabel>InternalName</internalNameLabel>
@@ -14,7 +14,7 @@
         <items>
             <label>CTI Adapter URL2</label>
             <name>reqStandbyUrl</name>
-            <value>/apex/demoAdapterPage2</value>
+            <value>/apex/demoAdapterPage</value>
         </items>
         <items>
             <label>Timeout</label>
@@ -87,7 +87,7 @@
         <items>
             <label>Provider Caller Number</label>
             <name>reqProviderCallerNumber</name>
-            <value>(201) 701-8324</value>
+            <value>+1 201-701-8324</value>
         </items>
         <label>Phone Demo Settings</label>
         <name>reqPhoneDemoSettings</name>
